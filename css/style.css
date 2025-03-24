@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: rgba(255, 247, 251, 1);
+  font-family: "Outfit" sans-serif;
+  font-weight: 400;
+  color: #5f564d;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.container {
+  margin-top: 123px;
+  margin-bottom: 124px;
+  width: 736px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 24px;
+  background-color: rgba(255, 247, 251, 1);
+}
+.container-site-img {
+  padding-top: 40px;
+  border-radius: 12px;
+  padding-bottom: 40px;
+}
+.container-2 {
+  width: 656px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.section-1 {
+  margin-bottom: 32px;
+}
+.section-1-heading {
+  font-family: "Young Serif";
+  font-weight: 400;
+  font-size: 40px;
+  color: rgba(49, 46, 44, 1);
+  padding-bottom: 24px;
+}
+.section-2-info {
+  background-color: #fff7fb;
+  border-radius: 12px;
+  margin-bottom: 32px;
+}
+.section-2 {
+}
+.section-2-in {
+  width: 600px;
+  padding: 28px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.section-2-heading {
+  font-weight: 600;
+  font-size: 20px;
+  color: #7a284e;
+  padding-bottom: 16px;
+}
+.section-2-ul {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #5f554d;
+  margin-left: 20px;
+  list-style: disc;
+  padding-bottom: 8px;
+}
+.section-2-ul li::marker {
+  content: "  .  ";
+  font-size: 17px;
+  color: #7a284e;
+}
+
+.section-2-ul strong {
+  color: #2c2b2b;
+}
+
+.section-Ingredients {
+  margin-bottom: 32px;
+}
+.sc-Ingredients__heading {
+  margin-bottom: 24px;
+}
+
+.sm-hd {
+  content: "  .   ";
+  font-size: 18px;
+  color: #7a284e;
+}
+
+.sc-Ingredients-ifno li::marker {
+  content: "   .   ";
+  font-size: 18px;
+  color: #7a284e;
+}
+.sc-Ingredients-ifno {
+  margin-left: 48px;
+}
+
+.sc-Ingredients-ifno li {
+  margin-bottom: 8px;
+}
+
+.sc-Ingredients-ifno li:last-child {
+  margin-bottom: 0;
+}
+.first-hr {
+  color: #e3ddd7;
+  margin-bottom: 32px;
+}
+.section-Instructions {
+    margin-bottom: 32px;
+}
+
+.sc-Instruction__heading {
+  margin-bottom: 24px;
+}
+.smilar-heading {
+  font-family: " Young-Serif";
+  font-weight: 400;
+  font-size: 28px;
+}
+.section-Instructions__ol li {
+    padding-bottom: 8px;
+}
+
+.section-Instructions__ol li:last-child {
+    padding-bottom: 0;
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 40px;
+}
+
+ol li::marker {
+    content: counter(list-item);
+    font-weight: bold;
+}
+
+.section-Nutrition {
+    margin-bottom: 40px;
+}
+.sc-Nutrition__heading {
+    margin-bottom: 24px;
+}
+.sc-Nutrition-info {
+    margin-bottom: 24px;
+}
+.section-Nutrition__left {
+    margin-left: 32px;
+}
+.div {
+}
+.bottom {
+    padding-bottom: 40px;
+}
+.section-Nutrition__last {
+    display: flex;
+    padding-bottom: 12px;
+}
+.chap {
+    width: 288px;
+}
+.section-Nutrition__chap {
+    color: #854632;
+    font-weight: 700;
+    line-height: 150%;
+}
